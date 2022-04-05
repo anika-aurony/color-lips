@@ -1,0 +1,23 @@
+img{
+    width: 50%;
+    height: 500px;
+}
+.container{
+    display: flex;
+    
+}
+.first-part{
+    padding: 20px;
+    margin-left: 30px;
+    margin-top: 80px;
+
+}
+h1{
+    color: rgb(151, 60, 151);
+}
+h2{
+    color: rgb(211, 94, 191);
+}
+strong{
+    color: rgb(253, 47, 47);
+}
