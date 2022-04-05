@@ -3,11 +3,13 @@ import useReview from '../../hook/useReview';
 import cosmetic from '../cosmetic.jpg'
 import './Home.css'
 import Review from '../Reviews/Reviews';
+import ReviewHome from '../ReviewHome/ReviewHome';
 import {useNavigate} from "react-router-dom";
 
 const Home = () => {
     const [reviews, setReviews] = useReview();
-    const sliceReviews = reviews.slice(1, 2);
+    const SliceReviews = reviews.slice(1, 4);
+    console.log(SliceReviews);
 
     const navigate = useNavigate();
 
@@ -30,13 +32,15 @@ const Home = () => {
                 <img src={cosmetic} alt="" />
             </div>
             <div>
-                <h3>Reviews</h3>
+                <h1>Customers Reviews</h1>
                 
-                <Review></Review>
-
-        
-                    
-          
+                
+                {
+                SliceReviews.map(SliceReview => <ReviewHome
+                 key={SliceReview.id}
+                 review = {SliceReview}
+                ></ReviewHome>)
+            }
                 <button onClick={showReview} className='button'>See all reviews</button>    
                 
 

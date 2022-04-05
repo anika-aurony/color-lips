@@ -8,9 +8,9 @@ const Header = () => {
         <div>
             <nav>
                 <Link className='link1' to="/">Home</Link> 
-                <Link className='link' to="Reviews">Reviews</Link>
-                <Link className='link' to="Dashboard">Dashboard</Link>
-                <Link className='link' to="Blogs">Blogs</Link>
+                <Link  to="Reviews">Reviews</Link>
+                <Link  to="Dashboard">Dashboard</Link>
+                <Link  to="Blogs">Blogs</Link>
 
             </nav>
         </div>
