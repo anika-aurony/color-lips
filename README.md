@@ -1,6 +1,6 @@
 # Color Lips
 
-# [Live Link](https://neon-cascaron-1808b8.netlify.app/)
+# [Site Link](https://neon-cascaron-1808b8.netlify.app/)
 
 - Here 3 graphs are shown
 - 6 customers review are given
