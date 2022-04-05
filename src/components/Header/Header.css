@@ -8,8 +8,11 @@ nav{
     color: aliceblue;
     text-decoration: none;
 }
-.link{
+nav a{
     margin-left: 200px;
     color: aliceblue;
     text-decoration: none;
+}
+nav a:hover{
+    color: brown;
 }

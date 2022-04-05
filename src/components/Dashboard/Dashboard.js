@@ -52,8 +52,8 @@ const Dashboard = () => {
             </LineChart>
 
             <BarChart width={400} height={300} data={data}>
-                <Bar dataKey="investment" fill="#8884d8" />
-                <Bar dataKey="revenue" fill="#82ca9d" />
+                <Bar dataKey="investment" stackId="a" fill="#8884d8" />
+                <Bar dataKey="revenue" stackId="a" fill="#82ca9d" />
                 <YAxis></YAxis>
                 <XAxis dataKey="month"></XAxis>
                 <Tooltip />
@@ -61,8 +61,8 @@ const Dashboard = () => {
             </BarChart>
 
             <AreaChart
-                width={500}
-                height={400}
+                width={400}
+                height={300}
                 data={data}
                 margin={{
                     top: 10,
@@ -75,8 +75,10 @@ const Dashboard = () => {
                 <XAxis dataKey="month" />
                 <YAxis />
                 <Tooltip />
-                <Area type="monotone" dataKey="investment" stroke="#8884d8" fill="#8884d8" />
-                <Area type="monotone" dataKey="revenue" stroke="#82ca9d" fill="#82ca9d" />
+                
+                
+                <Area type="monotone" dataKey="investment" stackId="1" stroke="#8884d8" fill="#8884d8" />
+                <Area type="monotone" dataKey="revenue" stackId="1" stroke="#82ca9d" fill="#82ca9d" />
             </AreaChart>
         </div>
     );
