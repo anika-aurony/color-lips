@@ -20,4 +20,13 @@ img{
 }
 strong{
     color: rgb(253, 47, 47);
+    
+}
+.button{
+    decoration: none;
+    padding: 20px;
+    background-color: rgb(135,206,250);
+    border-radius: 20px;
+    border: 0px;
+    margin-bottom: 20px;
 }

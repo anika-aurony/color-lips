@@ -1,4 +1,10 @@
-# Getting Started with Create React App
+# Color Lips
+
+- Here 3 graphs are shown
+- 6 customers review are given
+- It is Lipstick related website
+- 2 questions are answered
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
